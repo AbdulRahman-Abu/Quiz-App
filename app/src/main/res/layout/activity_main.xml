@@ -1,0 +1,231 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_name">
+    </TextView>
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sex">
+    </TextView>
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+        <RadioButton android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+        <TextView
+            android:id="@+id/entrepreneurship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/do_you_like_entrepreneurship">
+        </TextView>
+        <RadioGroup
+            android:id="@+id/entrepreneurshipRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton android:id="@+id/entrepreneurshipYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"/>
+        <RadioButton android:id="@+id/entrepreneurshipNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"/>
+        <RadioButton android:id="@+id/entrepreneurshipIndifferent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_m_indifferent"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/would_you_like_to_own_a_business">
+        </TextView>
+    <RadioGroup
+        android:id="@+id/businessRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/businessYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"/>
+        <RadioButton android:id="@+id/businessNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"/>
+        <RadioButton android:id="@+id/businessNotSure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_m_not_sure_yet" />
+    </RadioGroup>
+
+        <TextView
+            android:id="@+id/runBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/have_you_ever_run_a_business_or_a_startup">
+        </TextView>
+    <RadioGroup
+        android:id="@+id/runBusinessRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/runBusinessYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"/>
+        <RadioButton android:id="@+id/runBusinessNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"/>
+    </RadioGroup>
+
+        <TextView
+            android:id="@+id/businessOnlineOffline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/was_the_business_online_or_offline">
+        </TextView>
+    <RadioGroup
+        android:id="@+id/businessOnlineOfflineRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/online"/>
+        <RadioButton android:id="@+id/offline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/offline"/>
+        <RadioButton android:id="@+id/onlineOffline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/both"/>
+    </RadioGroup>
+
+        <TextView
+            android:id="@+id/fears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/did_you_have_fears_while_starting_your_own_business">
+        </TextView>
+    <RadioGroup
+        android:id="@+id/fearsRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/fearsYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_of_course" />
+        <RadioButton
+            android:id="@+id/fearsNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_i_m_a_superman" />
+    </RadioGroup>
+        <TextView
+            android:id="@+id/prevailingFears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/what_are_the_fears_of_every_entrepreneur"
+            >
+        </TextView>
+    <EditText
+        android:id="@+id/prevailingFearsText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+        <TextView
+            android:id="@+id/fearsTakenOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/would_you_run_a_business_if_your_fears_are_taken_care_of">
+        </TextView>
+    <RadioGroup
+        android:id="@+id/fearsTakenOffRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/fearsTakenOffYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+        <RadioButton android:id="@+id/fearsTakenOffNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/empowered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_would_you_like_to_be_empowered">
+    </TextView>
+    <EditText
+        android:id="@+id/empoweredText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+    <TextView
+        android:id="@+id/organisation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/can_you_name_any_organisation_that_can_help_take_away_these_fears">
+        </TextView>
+    <EditText
+        android:id="@+id/organisationText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:onClick="submitResult"/>
+</LinearLayout>
+</ScrollView>

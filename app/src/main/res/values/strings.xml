@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="i_m_indifferent">I am indifferent</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="do_you_like_entrepreneurship">Do you like entrepreneurship?</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="sex">Sex</string>
+    <string name="your_name">Your Name:</string>
+    <string name="would_you_like_to_own_a_business">Would you like to own a business?</string>
+    <string name="was_the_business_online_or_offline">Was the business online or offline?</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="both">Both</string>
+    <string name="did_you_have_fears_while_starting_your_own_business">Did you have fears while starting your own business?</string>
+    <string name="yes_of_course">Yes of course</string>
+    <string name="no_i_m_a_superman">No, I am a superman</string>
+    <string name="what_are_the_fears_of_every_entrepreneur">What are the fears of every entrepreneur?:</string>
+    <string name="would_you_run_a_business_if_your_fears_are_taken_care_of">Would you run a business if your fears are taken care of?</string>
+    <string name="empowered">How would you like to be empowered:</string>
+    <string name="can_you_name_any_organisation_that_can_help_take_away_these_fears">Can you name any organisation that can help take away these fears</string>
+    <string name="submit">Submit</string>
+    <string name="have_you_ever_run_a_business_or_a_startup">have_you_ever_run_a_business_or_a_startup</string>
+    <string name="i_m_not_sure_yet">i_m_not_sure_yet</string>
+    <string name="how_would_you_like_to_be_empowered">empowered</string>
+</resources>
